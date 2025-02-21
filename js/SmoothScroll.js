@@ -788,3 +788,14 @@ else
     window.SmoothScroll = SmoothScroll;
 
 })();
+
+
+// -------back to top---------
+window.addEventListener("scroll", function () {
+    var backToTop = document.querySelector(".back-to-top");
+    if (window.scrollY > 200) {
+        backToTop.classList.add("show");
+    } else {
+        backToTop.classList.remove("show");
+    }
+});
