@@ -1494,6 +1494,7 @@ header.main-header .header-sticky.active{
 .our-amenities-list{
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .amenities-item{
@@ -1778,6 +1779,7 @@ header.main-header .header-sticky.active{
     padding-top: 80px;
     margin-top: 200px;
     z-index: 1;
+	justify-content: center;
 }
 
 .intro-video-counter-item{
