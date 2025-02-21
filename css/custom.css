@@ -5131,7 +5131,8 @@ header.main-header .header-sticky.active{
 	}
 
 	.about-detail-item .icon-box{
-		margin-right: 10px;
+		/* margin-right: 10px; */
+		margin-left: 25px;
 	}
 
 	.about-detail-item .icon-box:before{
@@ -5878,6 +5879,7 @@ header.main-header .header-sticky.active{
     border-radius: 5px;
     overflow: hidden;
     margin-top: 10px;
+	width: fit-content;
 }
 
 .newsletter-box input {
