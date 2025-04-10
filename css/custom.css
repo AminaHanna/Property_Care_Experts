@@ -460,6 +460,7 @@ header.main-header .header-sticky.active{
 .navbar-brand{
 	padding: 0;
 	margin: 0;
+	width: 200px;
 }
 
 .main-menu .nav-menu-wrapper{
@@ -5972,3 +5973,4 @@ header.main-header .header-sticky.active{
 .show {
     display: block;
 }
+
