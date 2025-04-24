@@ -5974,3 +5974,60 @@ header.main-header .header-sticky.active{
     display: block;
 }
 
+
+/* General Button Styles */
+.contact-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	font-size: 16px;
+	color: white;
+	border-radius: 50%; /* Make the button round */
+	padding: 10px; /* Padding to control the size of the circle */
+	position: fixed; /* Keep the buttons fixed */
+	z-index: 1000; /* Ensure the buttons are above other elements */
+	cursor: pointer;
+	transition: opacity 0.3s ease; /* Smooth hover transition */
+	width: 60px; /* Set width of the circle */
+	height: 60px; /* Set height of the circle to match width */
+	align-items: center;
+	justify-content: center;
+  }
+  
+  /* Call Button */
+  .call-btn {
+	background-color: #4caf50; /* Green */
+	bottom: 80px; /* Distance from the bottom of the page */
+	right: 10px; /* Distance from the right side */
+	margin-bottom: 10px; /* Space between the call and WhatsApp buttons */
+  }
+  
+  /* WhatsApp Button */
+  .whatsapp-btn {
+	background-color: #25d366; /* WhatsApp green */
+	bottom: 100px; /* Distance from the bottom of the page */
+	right: 10px; /* Distance from the right side */
+  }
+  
+  /* Icon Styles */
+  .contact-btn .icon {
+	font-size: 30px; /* Increase icon size to fit the circle */
+  }
+  
+  /* Hover Effects for Buttons */
+  .contact-btn:hover {
+	opacity: 0.8;
+  }
+  
+  /* Responsive Styling for Mobile */
+  @media (max-width: 600px) {
+	.contact-btn {
+	  width: 50px; /* Smaller circle on mobile */
+	  height: 50px; /* Smaller circle on mobile */
+	}
+  
+	.contact-btn .icon {
+	  font-size: 24px; /* Smaller icon on mobile */
+	}
+  }
